@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche de film - Cinema des Lilas</title>
+    <link rel="stylesheet" href="style-search.css">
+</head>
+<body>
+    <header>
+        <h1>Cinema des Lilas</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="search.html" class="active">Rechercher</a>
+        </nav>
+    </header>
+    <main>
+        <section id="search-movies">
+            <h2>Rechercher vos films favoris</h2>
+            <input type="text" id="search-bar" placeholder="Entrer un film...">
+            <div class="movie-list" id="search-results">
+            </div>
+            <button id="load-more-search">Charger plus de films</button>
+        </section>
+    </main>
+    <script src="search.js" type="module"></script>
+</body>
+</html>
